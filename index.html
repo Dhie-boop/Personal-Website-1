@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Root Brand System</title>
+</head>
+
+<style>
+
+*{
+      padding: 0;
+      margin-bottom: 0;
+      margin: 0;
+    }
+
+    /* The below codes are for background p images */
+.local{
+  width: 100%;
+  background-image: url(Sample.png);
+  background-position: center;
+  background-size: cover;
+  height: 165vh;
+}
+
+/* The below codes are navigation bar */
+.content{
+      float: left;
+      height: 120px;
+      padding-left: 520px;
+    }
+
+    /* the below codes are for list content of the navigation bar */
+    ul{
+      float: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    /* the below codes are for the list content decorations navigation bar */ 
+    ul li{
+      list-style: none;
+      margin-left: 70px;
+      font-size: 14px;
+      margin-top: 100px;
+    }
+
+    /* the below codes are for the list content decorations also for the */
+ul li a{
+
+  text-decoration: none;
+  font-family:  Bahnschrift;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(250, 61, 3);
+  transition: 0.15s ease-in-out;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+/* the below codes are for the list content decorations for the hover */
+ul li a:hover{
+  color: #0E3438;
+  background-color: rgb(250, 61, 3);
+}
+
+/* the below codes are for the latest content of both the Latest news, Why choose us, About us */ 
+.latest{
+  padding-top: 460px;
+  padding-left: 150px;
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+.class{
+  font-family: Bahnschrift;
+  font-size: 25px;
+  align-items: center;
+  color: rgb(250, 61, 3);
+  cursor: pointer;
+}
+
+.p{
+  font-size: 14px;
+  color: white;
+  font-family: Bahnschrift;
+  padding-top: 20px;
+}
+
+.pr{
+  color: rgb(250, 61, 3);
+  font-family: Bahnschrift;
+}
+
+.Copy{
+  padding-top: 45px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  font-family: Bahnschrift;
+  padding-top: 25px;
+}
+
+.C{
+  padding-top: 20px;
+  border-width: none;
+}
+.icon{
+  width: 200px;
+  display: inline-block;
+  padding-left: 120px;
+  padding-top: 0px;
+  vertical-align: top;
+}
+
+.icou{
+  width: 250px;
+  display: inline-block;
+  padding-left: 160px;
+  vertical-align: text-top;
+  text-decoration: none;
+  padding-top: 50px;
+}
+
+.icou ion-icon{
+  color: rgb(250, 61, 3);
+  font-size: 30px;
+  padding-left: 8px;
+  transition: 0.4s ease;
+}
+
+.icou ion-icon:hover{
+  color: white;
+}
+
+.different{
+  display: block;
+}
+.active{
+  color: rgb(250, 61, 3);
+  background-color: #0E3438;
+  color: beige;
+}
+
+
+</style>
+<body>
+  <div class="local">
+    <div class="content">
+      <ul>
+        <li><a href="#">HOME:</a></li>
+        <li><a href="#">ABOUT:</a></li>
+        <li><a href="#">SERVICES:</a></li>
+        <li><a href="#">GALLERY:</a></li>
+      </ul>
+    </div>
+
+      <div class="latest">
+        <p class="class"> Lastest <strong>NEWS</strong></p>
+        <p class="p">The National Social Security Fund (NSSF) has announced a partnership with Ideawake, 
+          a global innovation software company, to expand access to the NSSF Hi-Innovator programme 
+          to more entrepreneurs across the country.
+        </p>
+      </div>
+
+      <div class="latest">
+        <p class="class"> Why <strong>CHOOSE US</strong></p>
+        <p class="p">We deliver timely and quality custom software development services. 
+          <p class="p">Our development team provides valuable solutions to enterprises and other businesses.</p> 
+        </p>
+      </div>
+
+      <div class="latest">
+        <p class="class"><strong>ABOUT US:</strong></p>
+        <p class="p">Root Brand System is still not yet a registered company in South Sudan.
+        </p>
+        <p class="p">We provides a premium software development dedicated to providing end to end solutions 
+          for your business. We help enterprises convert their ideas into a state of the art 
+          products perfectly tailored to their customer needs. We are also in business of printing 
+          and marketing.</p> 
+      </div>
+
+
+
+      <div class="icon">
+        <p class="pr"> <strong>Address</strong></p>
+        <p class="p">Bugema University, Main Campus Gayaza, Zerobwe Rd Kampala - Uganda</p>
+      </div>
+
+      <div class="icon">
+        <p class="pr"> <strong>Contacts</strong></p>
+        <p class="p">+211 925 413 115 <br> dhieumajok211@gmail.com</p>
+      </div>
+
+      <div class="icou">
+        <a href="#"> <ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="web.whatsapp.com/+211925413115"><ion-icon name="logo-whatsapp"></ion-icon></a>
+        <a href="#"> <ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"> <ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="gmail/dhieumajok211@gmail.com"> <ion-icon name="logo-google"></ion-icon></a>
+      </div>
+<hr class="C">
+      <p class="Copy">Copyright © 2022 Root Brand System Limited (RBSL) - All Rights Reserved.
+        Website by: Dhieu Majok</p>
+
+  </div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
